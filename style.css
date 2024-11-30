@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242527;
+  margin: 0;
+  padding: 0;
+}
+
+#button-search {
+  background: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+#button-search:hover {
+  border-bottom: 1px solid white;
+  width: 35px;
+  height: 35px;
+}
+
+#input-search {
+  border: 1.5px white solid;
+  background: black;
+  width: 400px;
+  height: 35px;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  font-family: JetBrains Mono;
+}
+
+#search-bar {
+  margin-top: 160px;
+  margin-left: 36%;
+  width: 500px;
+  height: 50px;
+}
+
+#bar {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#button-login {
+  background: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-left: 1350px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+#button-menu {
+  background: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+#button-settings {
+  background: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+#button-login:hover {
+  border-bottom: 1px solid white;
+  width: 35px;
+  height: 35px;
+}
+
+#button-settings:hover {
+  border-bottom: 1px solid white;
+  width: 35px;
+  height: 35px;
+}
+
+#button-menu:hover {
+  border-bottom: 1px solid white;
+  width: 35px;
+  height: 35px;
+}
+
+#logo {
+  font-size: 40px;
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 100px;
+  font-family: JetBrains Mono;
+}
+
+a {
+  width: 35px;
+  height: 35px;
+}
+
+#modal-window-for-menu {
+  width: 300px;
+  height: 450px;
+  border-radius: 6px;
+  border-color: black;
+  background-color: white;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  box-shadow: black 5px;
+  visibility: hidden;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 3px;
+  margin: 20px 20px;
+  display: flex;
+  align-content: space-around;
+  z-index: 1;
+}
+
+#close-menu {
+  font-size: 18px;
+  margin-left: 270px;
+  position: absolute;
+  margin-top: 10px;
+  font-family: JetBrains Mono;
+}
+
+#close-menu:hover {
+  border-bottom: 2px solid black;
+}
+
+.p-service {
+  margin-left: 10px;
+  margin-top: 80px;
+  font-family: JetBrains Mono;
+}
+
+#maps-p {
+  white-space: nowrap;
+  font-family: JetBrains Mono;
+}
+
+.img2 {
+  width: 80px;
+  height: 80px;
+  background-color: gray;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-content: space-around;
+  
+}
+
+.p-service2 {
+  margin-left: 10px;
+  margin-top: 80px;
+  font-family: JetBrains Mono;
+}
